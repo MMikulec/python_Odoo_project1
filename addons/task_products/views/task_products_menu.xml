@@ -1,0 +1,9 @@
+<!-- /mnt/extra-addons/task_products/views/task_products_menu.xml -->
+<odoo>
+    <menuitem id="menu_task_products_root" name="Task Products" sequence="10"/>
+    <menuitem id="menu_task_products"
+              name="Task Products"
+              parent="menu_task_products_root"
+              action="task_products.action_task_products"
+              sequence="10"/>
+</odoo>
